@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Info.unity
     guid: 0821479a345f39f46812eded6987b4c4
   - enabled: 1
-    path: Assets/Scenes/GameMain.unity
+    path: Assets/Scenes/YellowTesting.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Easy.unity
@@ -23,11 +23,11 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/BlueCar.unity
-    guid: aa7319b0e278e924180e3faa99201992
-  - enabled: 1
-    path: Assets/Scenes/CarbonFibre.unity
+    path: Assets/Scenes/Main.unity
     guid: 477334969e8cde540afc3156f798eb3f
   - enabled: 1
     path: Assets/Scenes/Won.unity

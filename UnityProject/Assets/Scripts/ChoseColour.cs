@@ -5,24 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class ChoseColour : MonoBehaviour
 {
+   
+    Color color;
     // Start is called before the first frame update
     void Start()
     {
         
+       
     }
-    public void Yello()
+    public void SaveColor(string color)
     {
-       GetComponent<Renderer>().material.color = Color.yellow;
-       SceneManager.LoadScene("CarbonFibre");
+        PlayerPrefs.SetString("BodyColor", color);
     }
+
+   
 
 
     // Update is called once per frame
-    void Update()
-    {
-    
-        {
-
-        }
-    }
+  
 }
