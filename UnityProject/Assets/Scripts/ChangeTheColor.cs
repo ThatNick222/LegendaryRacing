@@ -14,12 +14,12 @@ public class ChangeTheColor : MonoBehaviour
         {
             color = Color.yellow;
         }
-        Player.GetComponent<Renderer>().material.color=color;
+       
         if(PlayerPrefs.GetString("BodyColor") == "blue")
         {
             color = Color.blue;
         }
-        Player.GetComponent<Renderer>().material.color=color;
+      
         if(PlayerPrefs.GetString("BodyColor") == "black")
         {
             color = Color.black;
