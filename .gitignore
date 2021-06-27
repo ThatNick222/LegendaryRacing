@@ -1,9 +1,11 @@
-/[Ll]ibrary/
-/[Tt]emp/
+[Ll]ibrary/
+[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Photon/
+/Artifacts*
 
 # Visual Studio cache directory
 .vs/
