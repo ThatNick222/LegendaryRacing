@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     
     public void Evolution()
     {
-        PhotonNetwork.Instantiate("Evo", Vector3.zero, Quaternion.identity);
+        PhotonNetwork.Instantiate("Evo", new Vector3 (Random.Range(-5,5),0,Random.Range(-5,5)), Quaternion.identity);
         ChoosePanel.SetActive(false);
     }
     public void Camaro()

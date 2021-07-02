@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -30,6 +30,7 @@ public class SceneAll : MonoBehaviour
    {
        SceneManager.LoadScene("AboutGame");
    }
+  
    public void ReadTheRules()
    {
        SceneManager.LoadScene("Start");
@@ -38,6 +39,7 @@ public class SceneAll : MonoBehaviour
   {
       Application.Quit();
   }
+ 
  // public void Mitsubishie()
  
      //   GameManager.PhotonNetwork.Instantiate("Player", Vector3.zero, Quaternion.identity);
