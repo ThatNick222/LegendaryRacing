@@ -357,10 +357,10 @@ RectTransform:
   m_Father: {fileID: 1169502190}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.8, y: -0}
-  m_SizeDelta: {x: 313.79486, y: 176.79266}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -1.9, y: -95.4}
+  m_SizeDelta: {x: 321.5949, y: 186.39633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &560313166
 MonoBehaviour:
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8904862, g: 0.9245283, b: 0.100302614, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -394,7 +394,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: In this gamemode you can play Legendary racing with your friends together!
+  m_Text: "In this gamemode you can play together with your friends! \nChoose your
+    nickname below:"
 --- !u!222 &560313167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -437,10 +438,10 @@ RectTransform:
   m_Father: {fileID: 1169502190}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -97.6, y: 35}
-  m_SizeDelta: {x: 180.48795, y: 50.077507}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.1, y: -60.32}
+  m_SizeDelta: {x: 212.66473, y: 54.95057}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565569914
 MonoBehaviour:
@@ -509,7 +510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6461807, g: 0.8113208, b: 0.24110004, a: 1}
+  m_Color: {r: 0.6037736, g: 0.47805336, b: 0.17372729, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -642,7 +643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &730797713
 RectTransform:
   m_ObjectHideFlags: 0
@@ -659,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 153.42, y: 23.15}
+  m_AnchoredPosition: {x: 144, y: 23.15}
   m_SizeDelta: {x: 279.18713, y: 38.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730797714
@@ -982,10 +983,10 @@ RectTransform:
   m_Father: {fileID: 1169502190}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.19, y: 35.89}
-  m_SizeDelta: {x: 172.37741, y: 46.97502}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.1, y: -1}
+  m_SizeDelta: {x: 212.6647, y: 63.682083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545418638
 MonoBehaviour:
@@ -1063,7 +1064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.75361675, b: 0.254539, a: 1}
+  m_Color: {r: 0.34821433, g: 0.764151, b: 0.19103774, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1145,10 +1146,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1156,7 +1157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go
+  m_Text: Go!
 --- !u!222 &1683248758
 CanvasRenderer:
   m_ObjectHideFlags: 0

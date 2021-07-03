@@ -43,6 +43,9 @@ GameObject.Find("Npc2").GetComponent<Pilotik>().enabled = true;
 GameObject.Find("NPCBlue").GetComponent<NPCController>().enabled = true;
 GameObject.Find("NPCBlue").GetComponent<Pilotik>().enabled = true;
 
+UpCountWatch.stopwatchActive = true;
+//TimerControl.timer = true;
+
 DownCount.SetActive(false);
     }
 

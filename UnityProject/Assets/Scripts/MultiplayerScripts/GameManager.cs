@@ -25,12 +25,12 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     public void Camaro()
     {
-        PhotonNetwork.Instantiate("Player", Vector3.zero, Quaternion.identity);
+        PhotonNetwork.Instantiate("Player", new Vector3 (Random.Range(-5,5),0,Random.Range(-5,5)), Quaternion.identity);
         ChoosePanel.SetActive(false);
     }
 public void Nissan()
 {
-    PhotonNetwork.Instantiate("Nissan", Vector3.zero, Quaternion.identity);
+    PhotonNetwork.Instantiate("EvoTen", new Vector3 (Random.Range(-5,5),0, Random.Range(-5,5)), Quaternion.identity);
     ChoosePanel.SetActive(false);
 }
 

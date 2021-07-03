@@ -6534,6 +6534,7 @@ MonoBehaviour:
   Rear_LeftWheel: {fileID: 338208554}
   Rear_RightWheel: {fileID: 582286008}
   maxSpeed: 0
+  timerExtra: 0
 --- !u!54 &353242172
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12679,6 +12680,7 @@ MonoBehaviour:
   Rear_LeftWheel: {fileID: 0}
   Rear_RightWheel: {fileID: 0}
   maxSpeed: 0
+  timerExtra: 0
 --- !u!54 &634734580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19143,6 +19145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcd3a210ad5f39a4482e646cb5905f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trackPath: []
+  currentPosition: 0
 --- !u!114 &1022779697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19189,6 +19193,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a90e0dcb41da74796d887e0561cc29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  front_LeftWheel: {fileID: 0}
+  front_RightWheel: {fileID: 0}
+  back_LeftWheel: {fileID: 0}
+  back_RightWheel: {fileID: 0}
+  maxSpeed: 0
 --- !u!114 &1022779701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25542,6 +25551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcd3a210ad5f39a4482e646cb5905f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trackPath: []
+  currentPosition: 0
 --- !u!114 &1343189711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25588,6 +25599,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a90e0dcb41da74796d887e0561cc29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  front_LeftWheel: {fileID: 0}
+  front_RightWheel: {fileID: 0}
+  back_LeftWheel: {fileID: 0}
+  back_RightWheel: {fileID: 0}
+  maxSpeed: 0
 --- !u!114 &1343189715
 MonoBehaviour:
   m_ObjectHideFlags: 0

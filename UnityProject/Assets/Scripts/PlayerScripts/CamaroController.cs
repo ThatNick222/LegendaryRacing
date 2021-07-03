@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +10,7 @@ public class CamaroController : MonoBehaviour
     public WheelCollider Rear_RightWheel;
 
 public float maxSpeed;
+public float timerExtra;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public float maxSpeed;
     void Update()
     {
         
+       // timerExtra = 5;
 
         float horizontal = Input.GetAxis("Horizontal");
         float maxAngleSteer = 30;
@@ -50,5 +52,9 @@ public float maxSpeed;
         Forward_LeftWheel.brakeTorque = brake;
         Forward_RightWheel.brakeTorque = brake;
 
+       // if(GetComponent<Rigidbody>().velocity.magnitude <1)
+        {
+         //  if(timerExtra < 0)
+        }
     }
 }

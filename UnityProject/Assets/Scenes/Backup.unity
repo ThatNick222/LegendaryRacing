@@ -22015,12 +22015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0a6c40fa6d7e44d9b8215e56f4b737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goValue: 0
-  turnValue: 0
-  Forward_LeftWheel: {fileID: 1205555338}
-  Forward_RightWheel: {fileID: 1205555337}
-  Rear_LeftWheel: {fileID: 1205555336}
-  Rear_RightWheel: {fileID: 1205555335}
 --- !u!146 &1205555335
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -36885,7 +36879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96c7468903f8e744b7e61f57ec78238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1948912975}
 --- !u!64 &1948912982
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36930,6 +36923,7 @@ MonoBehaviour:
   Rear_LeftWheel: {fileID: 1948912986}
   Rear_RightWheel: {fileID: 1948912985}
   maxSpeed: 0
+  timerExtra: 0
 --- !u!146 &1948912985
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -38076,12 +38070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0a6c40fa6d7e44d9b8215e56f4b737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goValue: 0
-  turnValue: 0
-  Forward_LeftWheel: {fileID: 0}
-  Forward_RightWheel: {fileID: 0}
-  Rear_LeftWheel: {fileID: 0}
-  Rear_RightWheel: {fileID: 0}
 --- !u!114 &1984592059
 MonoBehaviour:
   m_ObjectHideFlags: 0
